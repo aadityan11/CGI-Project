@@ -2,6 +2,11 @@
 Final Code/Explanation Submission for my CGI project
 
 ADAPTIVE PROCEDURAL TERRAIN GENERATION.
+Please copy this link into your browser. It will take you to a G-drive folder that has the link to the .blend file (CGI Project.blend).
+Github does not allow more than 25MB files and the .blend cannot be compressed.
+
+https://drive.google.com/drive/folders/1tsaFZM2Ly9k8WcI43TNC_89kwywFJqIE?usp=sharing
+Copy this link^^^
 
 How to run the project:
 1. Download the Blender file (CGI Project.blend)
