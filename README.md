@@ -3,7 +3,29 @@ Final Code/Explanation Submission for my CGI project
 
 ADAPTIVE PROCEDURAL TERRAIN GENERATION.
 
-Geometry Node Setup
+How to run the project:
+1. Download the Blender file (CGI Project.blend)
+2. Open it in Blender
+3. Go to the Geometry Nodes panel from the top of the interface
+4. Click on the cube that you see. Go to the modifier tab (blue spanner icon 🔧) on the right-hand side of the screen. Click the TV Icon 📺, just below the Add Modifier button to display the landscape in the viewport.
+5. In the node tree you see, all green nodes can be edited to experiment with how the geo node tree works. They are mostly labelled. The red node in the centre controls the density of each of the scatter systems.
+6. The green nodes handle how wide the river is, the falloff of the land, the falloff of vegetation, the density of scatter systems etc.
+7. Press fn + 12 to render an image of the scene from camera view.
+
+To change the shape of the river:
+1. In the object list on the top right, select NurbsPath.
+2. Click Tab to go into edit mode. You will see the vertices of the river.
+3. Select any vertex you wish to change.
+4. Click G on the keyboard and then do Shift + Z. Your vertex should now follow your touchpad/mouse movements, along the plane.
+5. Use your mouse/touchpad to move the point to where you would like.
+6. Left click to confirm position.
+7. The landscape will adapt to the river's position. Additionally, all vegetation and rocks will adapt according to the new position of the leaves.
+
+
+
+
+
+Geometry Node Setup Explanation
 
 Terrain
 Starting with a square Plane (4 vertices). I first scale and subdivide the mesh and set a material to it. The starting mesh does not really matter, because I am anyway deleting it and replacing it with a plane. I could have even used a sphere or cube for the terrain.
