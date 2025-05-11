@@ -7,7 +7,7 @@ Github does not allow more than 25MB files, and the .blend cannot be compressed.
 
 https://drive.google.com/drive/folders/1tsaFZM2Ly9k8WcI43TNC_89kwywFJqIE?usp=sharing
 
-Also, pls go throught the File titled CGI Project ppt for an explanation of the geometry node setup and test renders
+Also, pls go through the File titled CGI Project ppt for an explanation of the geometry node setup and test renders
 
 How to run the project:
 1. Download the Blender file (CGI Project.blend)
